@@ -74,10 +74,15 @@ speed_test() {
 }
 
 speed() {
-    speed_test '' 'Speedtest.net'
-    speed_test '21541' 'Los Angeles, US'
-    speed_test '43860' 'Dallas, US'
-    speed_test '40879' 'Montreal, CA'
+    speed_test '3868' 'MTS, Nvsb' 
+    speed_test '3296' 'Rostel, Nvsb' 
+    speed_test '6389' 'Megafon, Nvsb' 
+    speed_test '6437' 'Megafon, Ekat' 
+    speed_test '1907' 'MTS, Moscow' 
+    speed_test '3682' 'Rostel, Moscow' 
+    speed_test '14190' 'dom.ru, Moscow' 
+    speed_test '6051' 'Tele2, Spb' 
+    speed_test '4247' 'MTS, Spb' 
     speed_test '61933' 'Paris, FR'
     speed_test '28922' 'Amsterdam, NL'
     speed_test '25858' 'Beijing, CN'
